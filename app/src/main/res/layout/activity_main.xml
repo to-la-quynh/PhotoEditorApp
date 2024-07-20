@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Photo Editor"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center|start"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnGallery"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_add_photo_alternate_24"
+            android:contentDescription="Get photo from gallery"/>
+
+        <ImageButton
+            android:id="@+id/btnCamera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_camera_alt_24"
+            android:contentDescription="Capture a new photo"/>
+    </LinearLayout>
+
+
+</LinearLayout>
