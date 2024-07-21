@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Photo Editor"
+        android:text="@string/app_name"
         android:textSize="30dp"
         android:textStyle="bold"
         android:gravity="center|start"
@@ -33,7 +33,7 @@
             android:background="@null"
             android:layout_weight="1"
             android:src="@drawable/baseline_add_photo_alternate_24"
-            android:contentDescription="Get photo from gallery"/>
+            android:contentDescription="@string/btnGalleryDes"/>
 
         <ImageButton
             android:id="@+id/btnCamera"
@@ -43,7 +43,7 @@
             android:background="@null"
             android:layout_weight="1"
             android:src="@drawable/baseline_camera_alt_24"
-            android:contentDescription="Capture a new photo"/>
+            android:contentDescription="@string/btnCameraDes"/>
     </LinearLayout>
 
 

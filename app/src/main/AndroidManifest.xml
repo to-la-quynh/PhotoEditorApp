@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PhotoEditor"
         tools:targetApi="31">
         <activity
+            android:name=".EditImageActivity"
+            android:exported="false" />
+        <activity
             android:name=".WelcomeActivity"
             android:exported="true">
             <intent-filter>
@@ -23,9 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>

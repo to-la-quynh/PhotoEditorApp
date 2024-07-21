@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/transform"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title=""
+        android:tooltipText="Transform" />
+
+    <item
+        android:id="@+id/filters"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title=""
+        android:tooltipText="Filters" />
+
+    <item
+        android:id="@+id/sticker"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title=""
+        android:tooltipText="Sticker" />
+
+    <item
+        android:id="@+id/text"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title=""
+        android:tooltipText="Text" />
+
+    <item
+        android:id="@+id/draw"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title=""
+        android:tooltipText="Draw" />
+
+    <item
+        android:id="@+id/tone"
+        android:icon="@android:drawable/ic_menu_crop"
+        android:title=""
+        android:tooltipText="Tone" />
+</menu>
