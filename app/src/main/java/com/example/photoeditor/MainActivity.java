@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         binding.btnGallery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                takePic();
+                imageChooser();
             }
         });
     }
